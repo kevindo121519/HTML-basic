@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="/process">
+        <h1>Registration Form</h1>
+        <div>
+            Last Name:*
+            <input type="text" name="last_name">
+        </div>
+        <div>
+            First Name:*
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            Email Address:*
+            <input type="email" name="email">
+        </div>
+        <div>
+            Password:*
+            <input type="password" name="password">
+        </div>
+        <div>
+            Confirm Password:*
+            <input type="password" name="Confirm password">
+        </div>
+        <div>
+            Birthday:*
+            <input type="date" name="dob">
+        </div>
+        <div>
+            Gender Identity:
+            <input type="radio" name="Male" id="male">
+            <label for="male">male</label>
+            <input type="radio" name="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="non-binary" id="non-binary">
+            <label for="non-binary">non-binary</label>
+            <input type="radio" name="unknown" id="unknown">
+            <label for="unknown">Prefer not to say</label>
+        </div>
+        <div>
+            A short description about myself:
+            <textarea name="comment" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            Favorite Language:
+            <select name="language">
+                <option>Javascript</option>
+                <option>Python</option>
+                <option>C++</option>
+                <option>Java</option>
+            </select>
+        </div>
+        <div>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I like to receives periodic email updates.</label>
+        </div>
+        <div><button>Sign Up</button></div>
+        * Indicates require a field.
+    </form>
+</body>
+</html>

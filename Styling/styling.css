@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 50px;
+    background-color: black;
+    color: aqua;
+    margin: 10px 15px;
+}
+
+.intro{
+    text-align: center;
+    font-size: 30px;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px 15px;
+}
+
+.contact{
+    text-align: right;
+    background-color: skyblue;
+    margin: 10px 15px;
+}

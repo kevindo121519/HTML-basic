@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feeds</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="network">Network</h1>
+        <h1 id="feeds"> Your Feeds</h1>
+        <div id="column">
+            <div id="left-col">
+                <img class="avatar" src="./images/avatar.png" alt="">
+                <a class="avatar-link" href="">Add an avatar</a>
+                <h1 class="my-name">James Doe</h1>
+            </div>
+
+            <div id="right-col">
+                <div class="character-content">
+                    <div class="upper-content">
+                        <h1 class="character-name">Neil M</h1>
+                        <p class="neil">9 Like(s)</p>
+                        <button class="neil-action" onclick="neilLikeHandler()">Like</button>
+                    </div>
+                    <p class="character-description">I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>    
+                </div>
+
+                <div class="character-content">
+                    <div class="upper-content">
+                        <h1 class="character-name">Nichole K</h1>
+                        <p class="nichole">12 Like(s)</p>
+                        <button class="nichole-action" onclick="nicholeLikeHandler()">Like</button>
+                    </div>
+                    <p class="character-description">Just finished my <a href="">next comic</a>, check it out.</p>    
+                </div>
+
+                <div class="character-content">
+                    <div class="upper-content">
+                        <h1 class="character-name">Jim R</h1>
+                        <p class="jim">9 Like(s)</p>
+                        <button class="jim-action" onclick="jimLikeHandler()">Like</button>
+                    </div>
+                    <p class="character-description">I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>    
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="feed.js"></script>
+</body>
+</html>

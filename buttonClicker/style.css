@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1200px;
+    min-height: 150px;
+}
+
+#nav-bar{
+    display: flex;
+    margin:  0px 50px;
+    background-color: grey;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.search{
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 700px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin:30px 40px;
+    box-shadow: 5px 5px;
+    background-color: blue;
+}
+
+#body-page{
+    display: flex;
+}
+
+#left-col{
+    flex: 2;
+    min-height: 100px;
+    margin-left: 50px;
+}
+
+.ninja-box{
+    width: 600px;
+    height: 175px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+
+}
+
+.ninja{
+    margin-top: 15px;
+}
+
+
+.noun{
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.description{
+    display: inline-block;
+    width: 290px;
+    margin-left: 210px;
+    vertical-align: middle;
+}
+
+.grammar{
+    margin-left: 32px;
+    font-size: 20px;
+}
+
+
+.top-like{
+    display: block;
+    margin-top: 15px;
+    margin-left: 31px;
+    background-color: yellow;
+    box-shadow: 3px 4px;
+}
+
+
+
+
+#right-col{
+    flex: 2;
+    min-height: 100px;
+}
+
+.def-box{
+    margin-left: 20px;
+    width: 470px;
+    min-height: 100px;
+    border: 3px solid black;
+}
+
+.text{
+    width: 265px;
+}
+
+.definition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    width: 300px;
+    height: 35px;
+    background-color: green;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
